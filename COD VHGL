@@ -1,0 +1,17 @@
+--Entidade
+
+entity  porta_not is  port (
+    
+    a: in bit;
+    x: out bit
+    );
+end  porta_not;
+    
+--Arquitetura
+
+architecture logica of  porta_not is
+begin
+    
+    x <= not (not a);
+    
+end logica;
