@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	unsigned char a,x;
+	
+	printf("Valore para A entre 0 e 1:");
+	scanf("%d",&a);
+	if(a==0){	
+	printf("X\n");
+	printf("%d\n",a=~a);
+}else{
+	printf("X:%d",a=~a);
+}	
+return 0;
+}
